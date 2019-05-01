@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+
+h1{
+  color:#00334e;
+  font-family: 'Slabo 27px', serif;
+  font-weight :2200;
+  font-size: 60px;
+  line-height:1.6;
+  letter-spacing: 5px;
+}
+
+
+h2 {
+  color:#00334e;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight :300;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+h3 {
+  color:#00334e;
+  font-family: 'Slabo 27px', serif;
+  font-weight :500;
+  font-size: 40px;
+  line-height:0.5;
+  letter-spacing: 1px;
+}
+
+body {
+  background-image: url("images/background-blur-clean-531880.jpg");
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight :bold;
+  letter-spacing: 2px;
+  font-size: 27px;
+  text-decoration: none;
+  line-height: 2;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 900px;
+  height: auto;
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  opacity: 1px;
+  box-shadow: 10px 10px 20px grey;
+  background-color: rgba(255,255, 255, 0.4);
+  border-radius: 90px;
+
+}
+.container2 {
+  max-width: 900px;
+  height: auto;
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  opacity: 1px;
+  box-shadow: 10px 10px 20px grey;
+  background-color: rgba(255,255, 255, 0.4);
+  border-radius: 50px;
+}
+
+#profile_image {
+  width: 120px;
+  border-radius: 50%;
+  box-shadow :10px 10px 20px grey;
+}
+
+.btn-blue {  height: auto;
+  margin: auto;
+  text-decoration: none;
+  padding: auto;
+  text-align: center;
+  opacity: 1px;
+  box-shadow: 10px 10px 20px grey;
+  background-color: rgba(255,255, 255, 0.0);
+  border-radius: 5px;
+}
+
+.btn-blue:hover {
+  color: #ff0b55;
+  background-color: rgba(255,255, 255, 0.5);
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline-block;
+  width: 120px;
+}
+
+.fa-github-square:hover {
+  color: black;
+}
+
+.fa-linkedin:hover {
+  color: black;
+}
